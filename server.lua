@@ -44,7 +44,7 @@ end)
 
 RegisterNetEvent('gifgat-medic:server:SendHelpCommandLog')
 AddEventHandler('gifgat-medic:server:SendHelpCommandLog', function(playerName, phoneNumber)
-    local webhookUrl = 'https://discord.com/api/webhooks/1117568998305956064/0P-yJHvSQcPavhN9LoJAcZLCFJuA4oMRFAIR5eTi5ukjRNw3kYS1X1JPv9nKUYv8_c-O' -- Replace with your actual webhook URL
+    local webhookUrl = '' -- Replace with your actual webhook URL
     local Player = QBCore.Functions.GetPlayer(source)
     local playerName = Player.PlayerData.charinfo.firstname .. ' ' .. Player.PlayerData.charinfo.lastname
     local phoneNumber = Player.PlayerData.charinfo.phone
