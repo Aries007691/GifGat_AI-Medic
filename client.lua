@@ -81,7 +81,6 @@ Citizen.CreateThread(function()
                     if dist <= 1 then
                         Active = false
                         ClearPedTasksImmediately(medic)
-                        DoctorNPC()
                     end
                 end
             end
